@@ -134,7 +134,7 @@ const VerifyEmailForm = () => {
         ?
         (
         <>
-        <div className="mb-4 text-sm text-gray-600">
+        <div className="mb-4 text-sm text-gray-600 dark:text-gray-200">
             Thanks for signing up! Before getting started, could you
             verify your email address by clicking on the link we just
             emailed to you? If you didn&rsquo;t receive the email, we will
@@ -142,14 +142,14 @@ const VerifyEmailForm = () => {
         </div>
 
         {status === 'verification-link-sent' && (
-            <div className="mb-4 font-medium text-sm text-green-600">
+            <div className="mb-4 font-medium text-sm text-green-600 dark:text-green-200">
                 A new verification link has been sent to the email
                 address you provided during registration.
             </div>
         )}
 
         {status !== 'verification-link-sent' && status && (
-            <div className="mb-4 font-medium text-sm text-green-600">
+            <div className="mb-4 font-medium text-sm text-green-600 dark:text-green-200">
                 {status}
             </div>
         )}
@@ -162,7 +162,7 @@ const VerifyEmailForm = () => {
 
             <button
                 type="button"
-                className="underline text-sm text-gray-600 hover:text-gray-900"
+                className="underline text-sm text-gray-600 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-50"
                 onClick={logout}>
                 Logout
             </button>

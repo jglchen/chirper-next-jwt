@@ -10,12 +10,12 @@ const AppLayout = ({ header, children }: PropsType) => {
     const Navigation = dynamic(() => import('./Navigation'), { ssr: false })
 
     return (
-        <div className="min-h-screen bg-gray-100">
+        <div className="min-h-screen bg-gray-100 dark:bg-gray-700">
             <UserContextPage>
                 <Navigation />
 
                 {/* Page Heading */}
-                <header className="bg-white shadow">
+                <header className="bg-white dark:bg-black shadow">
                     <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         {header}
                     </div>

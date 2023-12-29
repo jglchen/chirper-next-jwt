@@ -131,13 +131,13 @@ const LoginForm = () => {
                             id="remember_me"
                             type="checkbox"
                             name="remember"
-                            className="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                            className="rounded border-gray-300 text-indigo-600 dark:text-indigo-200 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                             onChange={event =>
                                 setShouldRemember(event.target.checked)
                             }
                         />
 
-                        <span className="ml-2 text-sm text-gray-600">
+                        <span className="ml-2 text-sm text-gray-600 dark:text-gray-200">
                             Remember me
                         </span>
                     </label>
@@ -147,13 +147,13 @@ const LoginForm = () => {
             
                     <Link
                         href="/forgot-password"
-                        className="underline text-sm text-gray-600 hover:text-gray-900">
+                        className="underline text-sm text-gray-600 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-50">
                         Forgot your password?
                     </Link>
             
                     <Link
                         href="/register"
-                        className="underline text-sm text-gray-600 hover:text-gray-900 ml-3">
+                        className="underline text-sm text-gray-600 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-50 ml-3">
                         Register
                     </Link>
 

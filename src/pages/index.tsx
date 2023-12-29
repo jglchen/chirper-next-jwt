@@ -54,7 +54,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center mt-4 sm:items-center sm:justify-between">
-            <div className="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
+            <div className="ml-4 text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
               Laravel Chirper API JWT Auth with Next.js Frontend
             </div>
           </div>

@@ -144,7 +144,7 @@ const RegisterForm = () => {
         <div className="flex items-center justify-end mt-4">
             <Link
                 href="/login"
-                className="underline text-sm text-gray-600 hover:text-gray-900">
+                className="underline text-sm text-gray-600 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-50">
                 Already registered?
             </Link>
 
