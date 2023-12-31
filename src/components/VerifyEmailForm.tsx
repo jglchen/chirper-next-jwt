@@ -224,7 +224,7 @@ const VerifyEmailForm = () => {
                         }
                     />
 
-                    <span className="ml-2 text-sm text-gray-600">
+                    <span className="ml-2 text-sm text-gray-600 dark:text-gray-200">
                         Remember me
                     </span>
                 </label>
